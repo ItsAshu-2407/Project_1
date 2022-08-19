@@ -88,5 +88,6 @@ public class bankApp {							// Main class.
 			out.println(e.getMessage() + " Please try again.");
 			System.exit(0);				//Exiting from the program if user gives wrong input.
 		}
+		Sc.close();
 	}
 }
