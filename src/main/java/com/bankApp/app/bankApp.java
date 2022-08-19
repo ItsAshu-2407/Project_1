@@ -1,10 +1,15 @@
-package com.bankApp.app;
 
 /**
+ * @author Ashutosh Kumar.
+ * 
  * Hello guys I welcome you all here, It is an application of a Finserv Bank to complete the needs of it's customer. 
+ * 
  * A Program To Illustrate Encapsulation and Abstraction. It also includes the concept of exception handling.
- *
  */
+
+
+package com.bankApp.app;
+
 import java.io.IOException;
 import com.bankModel.model.*;
 import com.bankController.controller.*;
