@@ -76,7 +76,8 @@ public class bankApp {							// Main class.
 							case 3 -> {
 								out.println("-----Your Account Details are-----\n" + bmobj.toString());			//Displaying Customer account details.
 							}
-							default -> System.exit(0);		//Exiting the program by customer choice.
+							default -> {out.println("Thank you, Visit Again.");
+													System.exit(0);}					//Exiting the program by customer choice.
 							}
 						}
 					}
@@ -88,6 +89,6 @@ public class bankApp {							// Main class.
 			out.println(e.getMessage() + " Please try again.");
 			System.exit(0);				//Exiting from the program if user gives wrong input.
 		}
-		Sc.close();
+		sc.close();
 	}
 }
